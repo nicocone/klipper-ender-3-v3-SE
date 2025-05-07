@@ -26,7 +26,7 @@ For X axe:
 
 position_endstop: -12 <-------------------You need to change this value
 
-position_min: -12 <-------------------This one should match the value avobe
+position_min: -12 <-------------------This one should match the value above
 
 
 
@@ -36,5 +36,5 @@ For Y axe:
 
 position_endstop: -24 <-------------------You need to change this value
 
-position_min: -24 <-------------------This one should match the value avobe
+position_min: -24 <-------------------This one should match the value above
 
