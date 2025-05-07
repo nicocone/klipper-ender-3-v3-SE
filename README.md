@@ -19,28 +19,22 @@ I hope this small contribution helps someone in the future!
 #IMPORTANT:
 
 I believe that maybe other Ender 3 v3 SE printers can have more or less steps from the endstops to the 0,0 position. So I recommend to always check these values and make you required changes.
+
 For X axe:
+
 [stepper_x]
-step_pin: PC2
-dir_pin: !PB9
-enable_pin: !PC3
-microsteps: 16
-rotation_distance: 40
-endstop_pin: !PA5
+
 position_endstop: -12 <-------------------You need to change this value
+
 position_min: -12 <-------------------This one should match the value avobe
-position_max: 230
-homing_speed: 100
+
+
 
 For Y axe:
+
 [stepper_y]
-step_pin: PB8
-dir_pin: PB7
-enable_pin: !PC3
-microsteps: 16
-rotation_distance: 40
-endstop_pin: !PA6
+
 position_endstop: -24 <-------------------You need to change this value
+
 position_min: -24 <-------------------This one should match the value avobe
-position_max: 225
-homing_speed: 100
+
